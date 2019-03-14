@@ -14,5 +14,3 @@ COPY --from=0 /etc_passwd /etc/passwd
 USER nobody
 
 EXPOSE 9116
-CMD ["go-wrapper", "run"] # ["app"]
-FROM scratch
